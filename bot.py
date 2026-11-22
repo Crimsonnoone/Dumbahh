@@ -142,7 +142,7 @@ async def generate(history):
         except Exception as e:  # 429s, outages, bad keys, etc.
             print(f"[{name}] failed: {e!r}")
             cooldown_until[name] = time.time() + COOLDOWN_SECONDS
-    return "my brain is broken rn. try again later"
+    return "ehhhhh.... shitty codeeeeee I am fucked"
 
 
 # ---------- discord ----------
